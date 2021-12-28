@@ -1,0 +1,33 @@
+@import './abstract/_sass_variables';
+
+:root {
+  --color-white: #{$color-white};
+  --color-gold: #{$color-gold};
+  --color-gray: #{$color-gray};
+
+  --ff-global: #{$ff-global};
+  --ff-heading: #{$ff-heading};
+
+  --fs-medium: #{$fs-medium};
+
+  --fs-heading1: var(--fs-extra-large);
+  --fs-heading1-sm: var(--fs-extra-large-sm);
+  --fs-heading2: var(--fs-large);
+  --fs-heading2-sm: var(--fs-large-sm);
+  --fs-heading3: var(--fs-medium);
+  --fs-heading3-sm: var(--fs-medium-sm);
+  --fs-body: var(--fs-small);
+
+  --fw-normal: #{$fw-normal};
+  --fw-bold: #{$fw-bold};
+
+  --sm: #{$sm};
+  --md: #{$md};
+  --lg: #{$lg};
+  --xl: #{$xl};
+  --xs-max: #{$xs-max};
+  --sm-max: #{$sm-max};
+  --md-max: #{$md-max};
+  --lg-max: #{$lg-max};
+
+}

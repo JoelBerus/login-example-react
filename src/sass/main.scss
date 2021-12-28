@@ -1,0 +1,7 @@
+//add variables to the scss file
+@import 'variables';
+@import 'reset';
+//init styles typography
+@import 'global/typography';
+//init styles login
+@import 'views/login';

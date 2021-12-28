@@ -1,0 +1,39 @@
+//Colors
+$color-white: #ffffff;
+$color-gold: #b38256;
+$color-gray: #333;
+
+//font-family
+$ff-global: 'roboto', sans-serif;
+$ff-heading: 'roboto', sans-serif;
+
+//font-size
+$fs-extra-large: 55px;
+$fs-extra-large-sm: 50px;
+$fs-large: 36px;
+$fs-large-sm: 30px;
+$fs-medium: 22px;
+$fs-medium-sm: 18px;
+$fs-small: 16px;
+$fs-xsmall: 12px;
+$fs-xxsmall: 10px;
+
+//heading font sizes
+$h1-font-size: $fs-extra-large;
+$h2-font-size: $fs-large;
+$h3-font-size: $fs-medium;
+$fs-body-font-size: $fs-small;
+
+// font-weight
+$fw-normal: 400;
+$fw-bold: 600;
+
+//Breakpoints
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+$lg-max: $xl - 1;
+$md-max: $lg - 1;
+$sm-max: $md - 1;
+$xs-max: $sm - 1;
