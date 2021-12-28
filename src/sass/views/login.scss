@@ -1,6 +1,11 @@
+@import '../abstract/mixins';
+
 .login-container {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 0 1fr;
+    @include lg {
+        grid-template-columns: 60% 40%;
+    }
     .login-image{
         height: 100vh;
         background-image: url(https://source.unsplash.com/random);

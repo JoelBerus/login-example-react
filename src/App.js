@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from './views/Home';
 import Login from './views/auth/Login';
 import About from './views/About';
@@ -15,7 +15,10 @@ function App() {
       <ThemeProvider theme={theme}>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="about" element={<About />} />
+          <Route path="about" element={<About />} /><Route
+              path="*"
+              element={<Navigate to="/" />}
+          />
         </Routes>
       </ThemeProvider>
     </Layout>
