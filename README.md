@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# React Router: 
+https://reactrouter.com/docs/en/v6/getting-started/installation
+# React template: 
+https://mui.com/
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
